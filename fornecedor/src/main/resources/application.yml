@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: 'fornecedor'
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://localhost:3306/fornecedor?useTimezone=true&serverTimezone=America/Sao_Paulo
+  jpa:
+    hibernate:
+      ddl-auto: update
